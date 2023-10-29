@@ -4,6 +4,25 @@
     font-family: 'outfit';
 }
 
+.imagecontainer {
+    display: flex;
+    /* height: 20vh; */
+    filter: saturate(50%);
+}
+
+.imagecontainer img {
+    border-radius: 20px;
+    height: fit-content;
+    width: 300px;
+    margin-right: 64px;
+    filter: sepia(10%);
+    transition: none;
+}
+
+.imagecontainer .shawty {
+    height: 300px;
+}
+
 svg {
     margin-bottom: 8px;
 }
