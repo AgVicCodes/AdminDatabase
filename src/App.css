@@ -1,30 +1,30 @@
 :root {
-  background-color: #e2e2e2;
-  color: #345327;
-  font-family: "outfit";
+    background-color: #EFEFEF;
+    color: #345327;
+    font-family: "outfit";
 }
 
 .imagecontainer {
-  display: flex;
-  /* height: 20vh; */
-  filter: saturate(50%);
+    display: flex;
+    height: 30px;
+    filter: saturate(50%);
 }
 
 .imagecontainer img {
-  border-radius: 20px;
-  height: fit-content;
-  width: 300px;
-  margin-right: 64px;
-  filter: sepia(10%);
-  transition: none;
+    border-radius: 20px;
+    height: fit-content;
+    width: 300px;
+    margin-right: 64px;
+    filter: sepia(10%);
+    transition: none;
 }
 
 .imagecontainer .shawty {
-  height: 300px;
+    height: 300px;
 }
 
 svg {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 /* nav ul li a {
@@ -36,73 +36,15 @@ svg {
     transition-timing-function: ease-in-out;
 } */
 
-nav ul li a:hover {
-  color: #fff;
-}
-
-nav ul li {
-  list-style: none;
-  font-size: 12px;
-  width: max-content;
-  margin-left: -30px;
-  border-top: 2px solid #c7c7c7;
-  height: 60px;
-  padding-top: 20px;
-  width: inherit;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition-property: "color", "background-color";
-  transition-duration: 500ms;
-  transition-timing-function: ease-in-out;
-  /* align-content: center; */
-  /* align-self: center; */
-  /* justify-self: center; */
-  /* justify-content: center; */
-}
-
-nav ul li:hover {
-  color: #fff;
-  background-color: #345327;
-}
-
-nav ul li:last-child {
-  border-bottom: 2px solid #c7c7c7;
-}
-
-nav {
-  background-color: #fff;
-  margin: -1%;
-  width: fit-content;
-  height: 100vh;
-  position: sticky;
-  left: 0;
-  z-index: 0;
-  box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.1);
-  /* padding: 10px; */
-}
-
-nav ul {
-  margin-left: -10px;
-}
-
-.logo {
-  width: 60px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
 main {
-  position: absolute;
-  margin-left: 15%;
-  top: 8%;
-  z-index: 2;
+    position: absolute;
+    margin-left: 15%;
+    top: 8%;
+    z-index: -1;
 }
 
 @media only screen and (width: 500px) {
-  body {
-    background-color: black;
-  }
+    body {
+        background-color: black;
+    }
 }

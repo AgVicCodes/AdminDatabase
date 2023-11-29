@@ -1,13 +1,13 @@
 nav ul li a:hover {
     color: #fff;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     list-style: none;
     font-size: 12px;
     width: max-content;
     margin-left: -30px;
-    border-top: 2px solid #c7c7c7;
+    border-top: 2px solid #EEEEEE;
     height: 60px;
     padding-top: 20px;
     width: inherit;
@@ -21,19 +21,19 @@ nav ul li a:hover {
     /* align-self: center; */
     /* justify-self: center; */
     /* justify-content: center; */
-  }
-  
-  nav ul li:hover {
+}
+
+nav ul li:hover {
     color: #fff;
-    background-color: #345327;
-  }
-  
-  nav ul li:last-child {
-    border-bottom: 2px solid #c7c7c7;
-  }
-  
-  nav {
-    background-color: #fff;
+    background-color: #395230;
+}
+
+nav ul li:last-child {
+    border-bottom: 2px solid #EEEEEE;
+}
+
+nav {
+    background-color: #F9F9F9;
     margin: -1%;
     width: fit-content;
     height: 100vh;
@@ -42,16 +42,16 @@ nav ul li a:hover {
     z-index: 0;
     box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.1);
     /* padding: 10px; */
-  }
-  
-  nav ul {
+}
+
+nav ul {
     margin-left: -10px;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 60px;
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 30px;
     margin-bottom: 10px;
-  }
+}
