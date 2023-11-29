@@ -37,9 +37,15 @@ function App() {
                 {/* <p>{currentDate()}</p> */}
 
                 <div className="imagecontainer">
-                    <img src={Image1} alt="" />
-                    <img src={Image2} alt="" />
-                    <img src={Image3} alt="" />
+                    <div className="image-wrapper">
+                        <img src={Image1} height="250" width="282" className='inner-img' />
+                    </div>
+                    <div className="image-wrapper">
+                        <img src={Image2} height="250" width="282" className='inner-img' />
+                    </div>
+                    <div className="image-wrapper">
+                        <img src={Image3} height="250" width="282" className='inner-img' />
+                    </div>
                 </div>
 
             </main>

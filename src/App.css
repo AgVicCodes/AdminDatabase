@@ -4,24 +4,22 @@
     font-family: "outfit";
 }
 
-.imagecontainer {
-    display: flex;
-    height: 250px;
+.image-wrapper {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
     filter: saturate(50%);
 }
 
-.imagecontainer img {
-    border-radius: 20px;
-    height: 222px;
-    width: 282px;
+.inner-img {
     margin-right: 32px;
-    filter: sepia(40%);
-    transition: ease-in-out 500ms;
+    filter: sepia(10%);
+    transition: 500ms;
     transition-property: "scale";
 }
 
-.imagecontainer img:hover {
-    scale: 1.5;
+.inner-img:hover {
+    transform: scale(1.1) !important;
 }
 
 svg {
