@@ -6,21 +6,22 @@
 
 .imagecontainer {
     display: flex;
-    height: 30px;
+    height: 250px;
     filter: saturate(50%);
 }
 
 .imagecontainer img {
     border-radius: 20px;
-    height: fit-content;
-    width: 300px;
-    margin-right: 64px;
-    filter: sepia(10%);
-    transition: none;
+    height: 222px;
+    width: 282px;
+    margin-right: 32px;
+    filter: sepia(40%);
+    transition: ease-in-out 500ms;
+    transition-property: "scale";
 }
 
-.imagecontainer .shawty {
-    height: 300px;
+.imagecontainer img:hover {
+    scale: 1.5;
 }
 
 svg {
@@ -38,7 +39,7 @@ svg {
 
 main {
     position: absolute;
-    margin-left: 15%;
+    margin-left: 10%;
     top: 8%;
     z-index: -1;
 }

@@ -39,7 +39,7 @@ function App() {
                 <div className="imagecontainer">
                     <img src={Image1} alt="" />
                     <img src={Image2} alt="" />
-                    <img src={Image3} alt="" className="shawty" />
+                    <img src={Image3} alt="" />
                 </div>
 
             </main>
